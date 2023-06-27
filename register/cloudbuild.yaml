@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/vectorvault-361ab/vv-register', '.' ]
+images:
+- 'gcr.io/vectorvault-361ab/vv-register'
