@@ -126,7 +126,7 @@ def send_email(user_email, api_key):
     message.template_id = 'd-5cbe86f323d7400393219a03ec678fdf'  # Your SendGrid Template ID
 
     try:
-        sg = SendGridAPIClient('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')   # Your SendGrid API Key
+        sg = SendGridAPIClient('SendGridAPIKEY')   # Your SendGrid API Key
         response = sg.send(message)
         print(response.status_code)
         print(response.body)
