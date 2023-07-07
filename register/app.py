@@ -5,7 +5,6 @@
 # TODO Count every usage and then deduct from their credits ✅
 # TODO Create not_enough_credits function and use it to return url for them to pay me ✅
 # TODO Set up payments with Stripe ✅
-# That was a lotttttt of work
 
 # User Registration:
 # The user submits their details via a POST request to the '/register' endpoint.
